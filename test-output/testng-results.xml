@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="23137" started-at="2019-07-11T15:16:00Z" finished-at="2019-07-11T15:16:23Z">
+    <groups>
+    </groups>
+    <test name="TestRun" duration-ms="23137" started-at="2019-07-11T15:16:00Z" finished-at="2019-07-11T15:16:23Z">
+      <class name="com.westpack.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="set()[pri:0, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8]" name="set" is-config="true" duration-ms="13192" started-at="2019-07-11T20:46:00Z" finished-at="2019-07-11T20:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method status="PASS" signature="Taxcalculation(java.lang.Integer)[pri:1, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8]" name="Taxcalculation" duration-ms="9912" started-at="2019-07-11T20:46:13Z" finished-at="2019-07-11T20:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Taxcalculation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8]" name="getResult" is-config="true" duration-ms="4" started-at="2019-07-11T20:46:23Z" finished-at="2019-07-11T20:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Taxcalculation status=SUCCESS method=HomePageTest.Taxcalculation(java.lang.Integer)[pri:1, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="failedscreenshot(org.testng.ITestResult)[pri:0, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8]" name="failedscreenshot" is-config="true" duration-ms="0" started-at="2019-07-11T20:46:23Z" finished-at="2019-07-11T20:46:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Taxcalculation status=SUCCESS method=HomePageTest.Taxcalculation(java.lang.Integer)[pri:1, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedscreenshot -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.westpack.qa.testcases.HomePageTest@2133c8f8]" name="endReport" is-config="true" duration-ms="1984" started-at="2019-07-11T20:46:23Z" finished-at="2019-07-11T20:46:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.westpack.qa.testcases.HomePageTest -->
+    </test> <!-- TestRun -->
+  </suite> <!-- Suite1 -->
+</testng-results>
